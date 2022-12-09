@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  <script>
+
+    // Javascript program to find n-th term of
+// series 1, 3, 6, 10, 15, 21...
+ 
+    function term(n)
+{
+     
+    // Loop to add numbers
+    let ans = 0;
+    for(let i = 1; i <= n; i++)   
+        ans += i;
+     
+    return ans;
+}
+ 
+// Driver code
+let n = 5;
+ 
+document.write(term(n));
+    
+  </script>  
+</body>
+</html>
